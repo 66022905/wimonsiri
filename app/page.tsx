@@ -23,7 +23,7 @@ const Home: React.FC = () => {
         {/* Profile Section */}
         <section className="bg-white border border-gray-400 p-6 rounded-lg shadow mb-6 flex flex-col items-center text-center">
         <Image
-           src="/bell.webp" // รูปจะถูกค้นหาในโฟลเดอร์ public
+           src="" // รูปจะถูกค้นหาในโฟลเดอร์ public
            alt="Profile Picture"
            width={130} 
            height={130} 
