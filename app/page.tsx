@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       {/* Header */}
       <header className="bg-yellow-500 text-black shadow p-6">
         <h1 className="text-3xl font-bold text-center uppercase tracking-wide">
-          resume
+          Resume
         </h1>
       </header>
 
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
           <section className="bg-black border border-yellow-500 p-8 rounded-lg shadow mb-8 flex flex-col items-center text-center">
             <Image
               src="/bell.webp"
-              alt="Profile Picture"
+              alt="Profile Picture of Wimonsiri Deesan"
               width={150}
               height={150}
               className="rounded-full mb-6 border-4 border-yellow-400"
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
               Wimonsiri Deesan
             </h2>
             <p className="text-lg text-white mb-6">
-              Hello! I am <strong>Wimonsiri Deesan</strong>, I’m passionate about learning new things
+              Hello! I am <strong>Wimonsiri Deesan</strong>, passionate about learning new things
               and embracing challenges at work. I enjoy developing myself and expanding my skills,
               especially with new technologies and modern work practices. I believe that taking on
               new roles helps me grow professionally and provides valuable opportunities to learn
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
             <div className="mb-8">
               <h3 className="text-2xl font-medium text-yellow-300">UP TALK</h3>
               <p className="text-lg text-white mb-4">
-                Design UI for the UP Talk website. This project focused on designing an intuitive
+                Designed UI for the UP Talk website. This project focused on designing an intuitive
                 user interface for a web platform that helps professionals communicate better.
               </p>
               <p>
@@ -82,13 +82,13 @@ const Home: React.FC = () => {
             <p className="text-lg text-white mb-4">
               Feel free to reach out to me through the following channels:
             </p>
-            <p className="text-lg text-white">
-              esmail:{' '}
+            <p className="text-lg text-white mb-4">
+              Email:{' '}
               <a href="mailto:66022905@up.ac.th" className="text-yellow-400 underline">
                 66022905@up.ac.th
               </a>
             </p>
-            <p className="text-lg text-white">Phone: 0947945817</p>
+            <p className="text-lg text-white mb-4">Phone: 0947945817</p>
             <p className="text-lg text-white">
               Facebook:{' '}
               <a
@@ -97,7 +97,7 @@ const Home: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                facebook Profile
+                Facebook Profile
               </a>
             </p>
           </section>
