@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       {/* Header */}
       <header className="bg-yellow-500 text-black shadow p-6">
         <h1 className="text-3xl font-bold text-center uppercase tracking-wide">
-          Resume
+          resume
         </h1>
       </header>
 
