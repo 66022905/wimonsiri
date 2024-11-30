@@ -31,7 +31,7 @@ const Home: React.FC = () => {
            />
 
           <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-            Wimonsiri Deesan
+            wimonsiri Deesan
           </h2>
           <p className="text-lg text-gray-600">
             Hello! I am <strong>Wimonsiri Deesan</strong>, I’m passionate about learning new things
