@@ -83,7 +83,7 @@ const Home: React.FC = () => {
               Feel free to reach out to me through the following channels:
             </p>
             <p className="text-lg text-white">
-              email:{' '}
+              Email:{' '}
               <a href="mailto:66022905@up.ac.th" className="text-yellow-400 underline">
                 66022905@up.ac.th
               </a>
