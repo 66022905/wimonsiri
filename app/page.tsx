@@ -7,38 +7,28 @@ const Home: React.FC = () => {
       <Head>
         <title>My Resume</title>
         <meta name="description" content="Professional Resume" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Header */}
       <header className="bg-gray-800 text-white shadow p-4">
         <h1 className="text-3xl font-bold text-center uppercase tracking-wide">
-          Resume
+           Resume
         </h1>
       </header>
 
-      {/* Main Content */}
       <main className="container mx-auto p-6">
         {/* Profile Section */}
         <section className="bg-white border border-gray-400 p-6 rounded-lg shadow mb-6 flex flex-col items-center text-center">
         <Image
-           src="" // รูปจะถูกค้นหาในโฟลเดอร์ public
-           alt="Profile Picture"
-           width={130} 
-           height={130} 
-          className="rounded-full mb-4 border-4 border-gray-500"
-           />
-
-          <h2 className="text-2xl font-semibold text-gray-800 mb-2">
-            wimonsiri Deesan
-          </h2>
+        src="https://i.pinimg.com/236x/45/ea/09/45ea09aa6873ee295feeff73775e7978.jpg"
+        alt="Profile Picture"
+        width={128}
+        height={128}
+        className="w-32 h-32 rounded-full mb-4 border-4 border-gray-500"
+      />
+          <h2 className="text-2xl font-semibold text-gray-800 mb-2">wimonsiri Deesan</h2>
           <p className="text-lg text-gray-600">
-            Hello! I am <strong>Wimonsiri Deesan</strong>, I’m passionate about learning new things
-            and embracing challenges at work. I enjoy developing myself and expanding my skills,
-            especially with new technologies and modern work practices. I believe that taking on
-            new roles helps me grow professionally and provides valuable opportunities to learn
-            from real experiences, allowing me to create meaningful work.
+            Hello! I am <strong>wimonsiri Deesan</strong>. I’m passionate about learning new things and embracing challenges at work. I enjoy developing myself and expanding my skills, especially with new technologies and modern work practices. I believe that taking on new roles helps me grow professionally and provides valuable opportunities to learn from real experiences, allowing me to create meaningful work.
           </p>
         </section>
 
@@ -58,7 +48,7 @@ const Home: React.FC = () => {
           <div>
             <h3 className="text-lg font-medium text-gray-700">UP TALK</h3>
             <p>
-              Design UI for the UP Talk website [
+              Design UI for the UP Talk website[
               <a
                 href="https://www.figma.com/design/EJYu3eUF2BW1zP9lpoFjMx/Figma-17?node-id=22-2&node-type=canvas&t=tqy5I4maxqJtnByg-0"
                 className="text-gray-800 underline"
@@ -73,7 +63,7 @@ const Home: React.FC = () => {
         </section>
 
         {/* Contact Section */}
-        <section className="bg-white border border-gray-400 p-6 rounded-lg shadow">
+        <section className="bg-white border border-gray-400 p-6 rounded-lg shadow mb-6">
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Contact</h2>
           <p>
             Email:{' '}
@@ -83,24 +73,22 @@ const Home: React.FC = () => {
           </p>
           <p>Phone: 0947945817</p>
           <p>
-            Facebook:{' '}
+            Facebook: [
             <a
               href="https://www.facebook.com/wimonsiri.ball/"
               className="text-gray-800 underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Facebook Profile
+              Facebook
             </a>
+            ]
           </p>
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="bg-gray-800 text-center p-4">
-        <p className="text-gray-400">
-          &copy; 2024 Wimonsiri Deesan. All rights reserved.
-        </p>
+        <p className="text-gray-400">&copy; 2024 Wimonsiri Deesan. All rights reserved.</p>
       </footer>
     </div>
   );
