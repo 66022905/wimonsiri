@@ -97,7 +97,7 @@ const Home: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook Profile
+                facebook Profile
               </a>
             </p>
           </section>
