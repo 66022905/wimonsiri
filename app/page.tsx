@@ -48,7 +48,7 @@ const Home: React.FC = () => {
           <ul className="list-disc pl-6 text-gray-600">
             <li>JavaScript, CSS</li>
             <li>Next.js, TailwindCSS</li>
-            <li>Figma</li>
+            <li>figma</li>
           </ul>
         </section>
 
