@@ -34,7 +34,7 @@ const Home: React.FC = () => {
             Wimonsiri Deesan
           </h2>
           <p className="text-lg text-gray-600">
-            Hello! I am <strong>Wimonsiri Deesan</strong>, I’m passionate about learning new things
+            Hello! I am <strong>wimonsiri Deesan</strong>, I’m passionate about learning new things
             and embracing challenges at work. I enjoy developing myself and expanding my skills,
             especially with new technologies and modern work practices. I believe that taking on
             new roles helps me grow professionally and provides valuable opportunities to learn
@@ -48,7 +48,7 @@ const Home: React.FC = () => {
           <ul className="list-disc pl-6 text-gray-600">
             <li>JavaScript, CSS</li>
             <li>Next.js, TailwindCSS</li>
-            <li>figma</li>
+            <li>Figma</li>
           </ul>
         </section>
 
