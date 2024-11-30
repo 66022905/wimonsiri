@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           {/* Left Column: Profile */}
           <section className="bg-black border border-yellow-500 p-8 rounded-lg shadow mb-8 flex flex-col items-center text-center">
             <Image
-              src="/bell.webp"
+              src="https://i.pinimg.com/736x/a8/a8/ec/a8a8ece98e49f3a7db36ed218e51a314.jpg"
               alt="Profile Picture of Wimonsiri Deesan"
               width={150}
               height={150}
