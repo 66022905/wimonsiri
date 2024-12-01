@@ -54,7 +54,7 @@ const Home: React.FC = () => {
             <ul className="list-disc pl-6 text-lg text-white mb-8">
               <li>JavaScript, CSS</li>
               <li>TailwindCSS</li>
-              <li>Figma, Adobe XD, Illustrator</li>
+              <li>Figma</li>
             </ul>
 
             <h2 className="text-3xl font-semibold mb-6 text-yellow-400">Projects</h2>
