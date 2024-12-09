@@ -79,7 +79,7 @@ const Home: React.FC = () => {
 
             <h2 className="text-3xl font-semibold mb-6 text-yellow-400">Contact</h2>
             <p className="text-lg text-white mb-4">
-              feel free to reach out to me through the following channels:
+              Feel free to reach out to me through the following channels:
             </p>
             <p className="text-lg text-white mb-4">
               Email:{' '}
