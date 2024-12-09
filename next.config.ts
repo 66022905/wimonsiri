@@ -5,10 +5,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-// next.config.js
-module.exports = {
-  images: {
-    domains: ['i.pinimg.com'], // เพิ่มโดเมน 'i.pinimg.com' ที่ใช้สำหรับโหลดภาพ
-  },
-};
-
