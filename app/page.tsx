@@ -72,7 +72,7 @@ const Home: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Figma
+                  figma
                 </a>
               </p>
             </div>
